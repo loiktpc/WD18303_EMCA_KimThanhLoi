@@ -1,0 +1,291 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Điện Thoại"
+    },
+    {
+      "id": "2",
+      "name": "LapTop"
+    },
+    {
+      "id": "3",
+      "name": "PC"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Điện thoại iPhone 12 128GB",
+      "cate_id": 1,
+      "price": 11230000,
+      "description": {
+        "screen": "OLED6.1 Super Retina XDR",
+        "system": "iOS 15",
+        "caremara_last": "12 MP",
+        "caremara_first": "2 camera 12 MP",
+        "chip": "Apple A14 Bionic",
+        "ram": "4 GB",
+        "capacity": "128 GB",
+        "sim": "1 Nano SIM & 1 eSIMHỗ trợ 5G",
+        "pin": "2815 mAh20 W"
+      },
+      "image": "https://cdn.tgdd.vn/Products/Images/42/213033/iphone-12-pro-max-xanh-duong-new-600x600-600x600.jpg",
+      "album": {
+        "img1": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-12-128gb_2.png",
+        "img2": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/d/o/download_2__1_27.png",
+        "img3": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/i/p/iphone-12-xanh-duong-new-600x600-200x200-1_7.jpg"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Điện thoại Samsung Galaxy Z Fold4 5G 256GB",
+      "cate_id": 1,
+      "price": 15960000,
+      "description": {
+        "screen": "Dynamic AMOLED 2XChính 7.6' & Phụ 6.2'Quad HD+ (2K+)",
+        "system": "Android 12",
+        "caremara_last": "Chính 50 MP & Phụ 12 MP, 10 MP",
+        "caremara_first": "10 MP & 4 MP",
+        "chip": "Snapdragon 8+ Gen 1",
+        "ram": "12 GB",
+        "capacity": "256 GB",
+        "sim": "1 Nano SIM & 1 eSIMHỗ trợ 5G",
+        "pin": "4400 mAh25 W"
+      },
+      "image": "https://cdn.tgdd.vn/Products/Images/42/250625/TimerThumb/samsung-galaxy-z-fold4-(24).jpg",
+      "album": {
+        "img1": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-flip-5-256gb_1_5.png",
+        "img2": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-flip-4.png",
+        "img3": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/s/a/samsung-galaxy-z-fold-5-256gb_1.png"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Laptop Asus TUF Gaming F15 FX506HF i5 11400H/8GB/512GB/4GB RTX2050/144Hz/Win11 (HN014W)",
+      "cate_id": 2,
+      "price": 16990000,
+      "description": {
+        "cpu": "i511400H2.7GHz",
+        "ram": "8 GBDDR4 2 khe (1 khe 8 GB + 1 khe rời)3200 MHz",
+        "hard_drive": "Hỗ trợ thêm 1 khe cắm SSD M.2 PCIe mở rộng (nâng cấp tối đa 1 TB)512 GB SSD NVMe PCIe (Có thể tháo ra, lắp thanh khác tối đa 1 TB)",
+        "screen": "15.6Full HD (1920 x 1080) 144Hz",
+        "system": "Windows 11 Home SL",
+        "design": "Vỏ nhựa - nắp lưng bằng kim loại",
+        "weight": "Dài 359 mm - Rộng 256 mm - Dày 22.8 ~ 24.5 mm - Nặng 2.3 kg"
+      },
+      "image": "https://cdn.tgdd.vn/Products/Images/44/304867/asus-tuf-gaming-f15-fx506hf-i5-hn014w-thumb-600x600.jpg",
+      "album": {
+        "img1": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_13__5_14.png",
+        "img2": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_6_31.png",
+        "img3": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/t/e/text_ng_n_8__3_22.png"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Điện thoại Samsung Galaxy S23 Ultra 5G 512GB",
+      "cate_id": 1,
+      "price": 28390000,
+      "description": {
+        "screen": "Dynamic AMOLED 2X6.8 Quad HD+ (2K+)",
+        "system": "Android 13",
+        "caremara_last": "Chính 200 MP & Phụ 12 MP, 10 MP, 10 MP",
+        "caremara_first": "12 MP",
+        "chip": "Snapdragon 8 Gen 2 for Galaxy",
+        "ram": "12 GB",
+        "capacity": "512 GB",
+        "sim": "2 Nano SIM hoặc 1 Nano SIM + 1 eSIMHỗ trợ 5G",
+        "pin": "5000 mAh45 W"
+      },
+      "image": "https://cdn.tgdd.vn/Products/Images/42/301796/TimerThumb/samsung-galaxy-s23-ultra-5g-512gb.jpg",
+      "album": {
+        "img1": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/6/3/637170935875912528_ss-s20-ultra-den-1_4_1_1.png",
+        "img2": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/6/3/637170935875393356_ss-s20-ultra-den-3_1_1_1.png",
+        "img3": "https://cdn2.cellphones.com.vn/x/media/catalog/product/6/3/637170935336423061_ss-s20-ultra-xam-1_2_1_1.png"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Laptop Lenovo LOQ Gaming 15IRH8 i5 13420H/16GB/512GB/6GB RTX4050/144Hz/Win11 (82XV00Q4VN)",
+      "cate_id": 2,
+      "price": 25990000,
+      "description": {
+        "cpu": "i513420H2.1GHz",
+        "ram": "16 GBDDR5 2 khe (1 khe 8 GB + 1 khe 8 GB)5200 MHz",
+        "hard_drive": "512 GB SSD NVMe PCIe 4.0 (Có thể tháo ra, lắp thanh khác tối đa 1 TB)Hỗ trợ thêm 1 khe cắm SSD M.2 PCIe Gen 4 mở rộng (nâng cấp tối đa 1 TB)",
+        "screen": "15.6Full HD (1920 x 1080) 144Hz",
+        "system": "Windows 11 Home SL",
+        "design": "Vỏ nhựa ",
+        "weight": "Dài 359.6 mm - Rộng 264.8 mm - Dày 22.1 ~ 25.2 mm - Nặng 2.4 kg"
+      },
+      "image": "https://cdn.tgdd.vn/Products/Images/44/313611/lenovo-loq-gaming-15irh8-i5-82xv00q4vn-thumb-600x600.jpg",
+      "album": {
+        "img1": "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5_15.png",
+        "img2": "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_5__3_11.png",
+        "img3": "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_6__112.png"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Laptop Apple MacBook Pro 13 inch M2 2022 8-core CPU/16GB/512GB/10-core GPU (Z16U)",
+      "cate_id": 2,
+      "price": 39490000,
+      "description": {
+        "cpu": "Apple M2100GB/s",
+        "ram": "16 GB",
+        "hard_drive": "512 GB SSD",
+        "screen": "Card tích hợp10 nhân GPU",
+        "system": "macOS",
+        "design": "Vỏ kim loại",
+        "weight": "Dài 304.1 mm - Rộng 212.4 mm - Dày 15.6 mm - Nặng 1.4 kg"
+      },
+      "image": "https://cdn.tgdd.vn/Products/Images/44/283464/apple-macbook-pro-m2-2022-16gb-600x600.jpg",
+      "album": {
+        "img1": "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-m2-2022-16gb-256gb_2_.png",
+        "img2": "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-m2-2022-16gb-256gb_5_.png",
+        "img3": "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/macbook-pro-m2-2022-16gb-256gb_7_.png"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customer_name": "Kim Thanh Loi",
+      "customer_address": "44 Kênh 30/4 P6K6",
+      "customer_email": "stbumbumst@gmail.com",
+      "customer_phone_number": "0975045670",
+      "customer_mess": "giao hàng cẩn thận",
+      "transfer_money": 1,
+      "order_code": 65487,
+      "total_product_cost": 39490000,
+      "created_date": "2/2/2024",
+      "status": 1
+    },
+    {
+      "id": "99a2",
+      "customer_name": "myhoa",
+      "customer_address": "myhoa",
+      "customer_email": "stbumbumst@gmail.com",
+      "customer_phone_number": "0975035680",
+      "customer_mess": "myhoa",
+      "transfer_money": "1",
+      "order_code": 909035,
+      "total_product_cost": 84700000,
+      "created_date": "20/0/2024",
+      "status": 1
+    },
+    {
+      "id": "55d6",
+      "customer_name": "thanhloi",
+      "customer_address": "ngoduy ",
+      "customer_email": "stbumbumst@gmail.com",
+      "customer_phone_number": "0975035680",
+      "customer_mess": "myhoast123",
+      "transfer_money": "1",
+      "order_code": 990069,
+      "total_product_cost": 11230000,
+      "created_date": "20/0/2024",
+      "status": 1
+    },
+    {
+      "id": "b7f6",
+      "customer_name": "ngoduy ",
+      "customer_address": "ngoduy ",
+      "customer_email": "stbumbumst@gmail.com",
+      "customer_phone_number": "0975035680",
+      "customer_mess": "ngoduy ",
+      "transfer_money": "1",
+      "order_code": 370510,
+      "total_product_cost": 67880000,
+      "created_date": "20/0/2024",
+      "status": 1
+    },
+    {
+      "id": "e580",
+      "customer_name": "loikt",
+      "customer_address": "loikt",
+      "customer_email": "stbumbumst@gmail.com",
+      "customer_phone_number": "0975035680",
+      "customer_mess": "canthan",
+      "transfer_money": "1",
+      "order_code": 872746,
+      "total_product_cost": 39490000,
+      "created_date": "21/0/2024",
+      "status": 1
+    }
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "product_id": 6,
+      "quantity": 1,
+      "product_price": 39490000,
+      "created_date": "2/2/2024",
+      "id": "d7c9"
+    },
+    {
+      "0": {
+        "order_id": 909035,
+        "product_id": "3",
+        "quantity": 2,
+        "product_price": 33980000,
+        "created_date": "20/0/2024"
+      },
+      "1": {
+        "order_id": 909035,
+        "product_id": "6",
+        "quantity": 1,
+        "product_price": 39490000,
+        "created_date": "20/0/2024"
+      },
+      "2": {
+        "order_id": 909035,
+        "product_id": "1",
+        "quantity": 1,
+        "product_price": 11230000,
+        "created_date": "20/0/2024"
+      },
+      "id": "20ff"
+    },
+    {
+      "0": {
+        "order_id": 990069,
+        "product_id": "1",
+        "quantity": 1,
+        "product_price": 11230000,
+        "created_date": "20/0/2024"
+      },
+      "id": "9630"
+    },
+    {
+      "0": {
+        "order_id": 872746,
+        "product_id": "6",
+        "quantity": 1,
+        "product_price": 39490000,
+        "created_date": "21/0/2024"
+      },
+      "id": "9f07"
+    }
+  ],
+  "users": [
+    {
+      "user_name": "kimloi",
+      "passwords": "123",
+      "user_email": "admin@gmail.com",
+      "phone": "0975035667",
+      "role_id": "1",
+      "create_at": "18/1/2024",
+      "id": "b13a"
+    },
+    {
+      "id": "27e0",
+      "user_name": "myhoa",
+      "passwords": "123",
+      "user_email": "stbumbumst@gmail.com",
+      "phone": "094343434343",
+      "role_id": 2,
+      "create_at": "2/2/2024"
+    }
+  ]
+}
