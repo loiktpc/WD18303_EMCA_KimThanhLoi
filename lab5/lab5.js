@@ -31,7 +31,6 @@ students.introduce();
 // gọi đến đối tượng là learning
 students.learning.learning();
 
-
 // 2.
 
 class Shape {
@@ -46,7 +45,6 @@ class Shape {
 }
 const cat = new Shape(0, 180);
 cat.corner();
-
 
 // 3.
 
@@ -90,7 +88,6 @@ class Clock {
 let clock = new Clock({ template: "h:m:s" });
 clock.start();
 
-
 // 4.
 
 class Person {
@@ -123,111 +120,116 @@ user.FristName = "Hoa";
 
 console.log(user.fullName()); // Hoa Kim
 
-// 5.
-class APICaller {
-    constructor(api) {
-        this.api = api;
-    }
+// 5. class
+// bổ sung module
+import { GetAllProducts, PutProducts } from "./Products/CrudProducts/index.js";
 
-    get(e) {
-        axios
-            .get(`${this.api}${this.endpoint}/${e ?? ""}`)
-            .then((res) => {
-                console.log(res);
-            })
+console.log(PutProducts);
 
-            .catch(function (error) {
-                   if (error.response) {
-                       console.log(error.response.data);
-                       console.log(error.response.status);
-                       console.log(error.response.headers);
-                   } else if (error.request) {
-                       console.log(error.request);
-                   } else {
-                       // Something happened in setting up the request that triggered an Error
-                       console.log("Error", error.message);
-                   }
-                   console.log(error.config);
-            });
-    }
-    delete(e) {
-        axios
-            .delete(`${this.api}${this.endpoint}/${e ?? ""}`)
-            .then((res) => {
-                console.log(res);
-            })
-            .catch(function (error) {
-                   if (error.response) {
-                       console.log(error.response.data);
-                       console.log(error.response.status);
-                       console.log(error.response.headers);
-                   } else if (error.request) {
-                       console.log(error.request);
-                   } else {
-                       console.log("Error", error.message);
-                   }
-                   console.log(error.config);
-            });
-    }
-    put(e, data) {
-        axios
-            .put(`${this.api}${this.endpoint}/${e ?? ""}`, data)
-            .then((res) => {
-                console.log(res);
-            })
-            .catch(function (error) {
-                   if (error.response) {
-                       console.log(error.response.data);
-                       console.log(error.response.status);
-                       console.log(error.response.headers);
-                   } else if (error.request) {
-                       console.log(error.request);
-                   } else {
-                       console.log("Error", error.message);
-                   }
-                   console.log(error.config);
-            });
-    }
-}
+// class APICaller {
+//     constructor(api) {
+//         this.api = api;
+//     }
 
-class Comment extends APICaller {
-    constructor(Api) {
-        super(Api);
-        this.endpoint = "comments";
-    }
-    getAll() {
-        super.get();
-    }
-    GetOne(e) {
-        if (typeof e === "number") {
-            super.get(e);
-        } else {
-            throw new Error("id is not a number!");
-        }
-    }
-    deleteOne(id) {
-        if (typeof id === "number") {
-            super.delete(id);
-        } else {
-            throw new Error("id is not a number!");
-        }
-    }
-    putOne(id, data) {
-        if (typeof id === "number") {
-            super.put(id, data);
-        } else {
-            throw new Error("id is not a number!");
-        }
-    }
-}
-const API_URL = "https://jsonplaceholder.typicode.com/";
-const getapi = new Comment(API_URL);
+//     get(e) {
+//         axios
+//             .get(`${this.api}${this.endpoint}/${e ?? ""}`)
+//             .then((res) => {
+//                 console.log(res);
+//             })
 
-getapi.getAll();
-getapi.GetOne(3);
-getapi.deleteOne(2);
-const data = {
-    email: "loiktpc05314",
-    name: "loi",
-};
-getapi.putOne(1, data);
+//             .catch(function (error) {
+//                    if (error.response) {
+//                        console.log(error.response.data);
+//                        console.log(error.response.status);
+//                        console.log(error.response.headers);
+//                    } else if (error.request) {
+//                        console.log(error.request);
+//                    } else {
+//                        // Something happened in setting up the request that triggered an Error
+//                        console.log("Error", error.message);
+//                    }
+//                    console.log(error.config);
+//             });
+//     }
+//     delete(e) {
+//         axios
+//             .delete(`${this.api}${this.endpoint}/${e ?? ""}`)
+//             .then((res) => {
+//                 console.log(res);
+//             })
+//             .catch(function (error) {
+//                    if (error.response) {
+//                        console.log(error.response.data);
+//                        console.log(error.response.status);
+//                        console.log(error.response.headers);
+//                    } else if (error.request) {
+//                        console.log(error.request);
+//                    } else {
+//                        console.log("Error", error.message);
+//                    }
+//                    console.log(error.config);
+//             });
+//     }
+//     put(e, data) {
+//         axios
+//             .put(`${this.api}${this.endpoint}/${e ?? ""}`, data)
+//             .then((res) => {
+//                 console.log(res);
+//             })
+//             .catch(function (error) {
+//                    if (error.response) {
+//                        console.log(error.response.data);
+//                        console.log(error.response.status);
+//                        console.log(error.response.headers);
+//                    } else if (error.request) {
+//                        console.log(error.request);
+//                    } else {
+//                        console.log("Error", error.message);
+//                    }
+//                    console.log(error.config);
+//             });
+//     }
+// }
+
+// class Comment extends APICaller {
+//     constructor(Api) {
+//         super(Api);
+//         this.endpoint = "comments";
+//     }
+//     getAll() {
+//         super.get();
+//     }
+//     GetOne(e) {
+//         if (typeof e === "number") {
+//             super.get(e);
+//         } else {
+//             throw new Error("id is not a number!");
+//         }
+//     }
+//     deleteOne(id) {
+//         if (typeof id === "number") {
+//             super.delete(id);
+//         } else {
+//             throw new Error("id is not a number!");
+//         }
+//     }
+//     putOne(id, data) {
+//         if (typeof id === "number") {
+//             super.put(id, data);
+//         } else {
+//             throw new Error("id is not a number!");
+//         }
+//     }
+// }
+// const API_URL = "https://jsonplaceholder.typicode.com/";
+// const getapi = new Comment(API_URL);
+
+// getapi.getAll();
+// getapi.GetOne(3);
+// getapi.deleteOne(2);
+// const data = {
+//     email: "loiktpc05314",
+//     name: "loi",
+// };
+// getapi.putOne(1, data);
